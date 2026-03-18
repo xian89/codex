@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>萌爪PetMall | 宠物用品展示站</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top">萌爪PetMall</a>
+      <ul class="nav-links">
+        <li><a href="#products">精选商品</a></li>
+        <li><a href="#features">服务优势</a></li>
+        <li><a href="#contact">联系我们</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content container">
+      <p class="eyebrow">一站式宠物生活好物</p>
+      <h1>让每一只毛孩子都被温柔对待</h1>
+      <p>
+        从日常主粮到趣味玩具，从护理用品到外出装备，
+        萌爪PetMall 帮你快速找到高颜值、高口碑、好品质的宠物用品。
+      </p>
+      <a class="cta" href="#products">立即浏览</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container" id="products">
+      <div class="section-title">
+        <h2>热门宠物用品</h2>
+        <p>按类别快速挑选，适合猫咪、狗狗及小型宠物。</p>
+      </div>
+
+      <div class="filters" aria-label="商品分类筛选">
+        <button class="filter active" data-filter="all">全部</button>
+        <button class="filter" data-filter="food">主粮零食</button>
+        <button class="filter" data-filter="toy">玩具互动</button>
+        <button class="filter" data-filter="care">清洁护理</button>
+        <button class="filter" data-filter="travel">出行装备</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="card" data-category="food">
+          <h3>低敏鲜肉犬粮</h3>
+          <p>高蛋白配方，呵护肠胃，适合全年龄段犬只。</p>
+          <span class="tag">主粮零食</span>
+        </article>
+
+        <article class="card" data-category="food">
+          <h3>冻干三文鱼猫零食</h3>
+          <p>纯肉无添加，适口性好，猫咪奖励训练好帮手。</p>
+          <span class="tag">主粮零食</span>
+        </article>
+
+        <article class="card" data-category="toy">
+          <h3>猫咪羽毛逗猫棒</h3>
+          <p>柔韧杆体+铃铛设计，激发捕猎天性，提升互动乐趣。</p>
+          <span class="tag">玩具互动</span>
+        </article>
+
+        <article class="card" data-category="toy">
+          <h3>耐咬漏食益智球</h3>
+          <p>边玩边吃，缓解无聊与分离焦虑，适合中小型犬。</p>
+          <span class="tag">玩具互动</span>
+        </article>
+
+        <article class="card" data-category="care">
+          <h3>宠物免洗泡沫</h3>
+          <p>温和植物配方，外出回家快速清洁足部与毛发。</p>
+          <span class="tag">清洁护理</span>
+        </article>
+
+        <article class="card" data-category="care">
+          <h3>除味抑菌猫砂</h3>
+          <p>快速结团，低粉尘，长效净味，铲屎体验更轻松。</p>
+          <span class="tag">清洁护理</span>
+        </article>
+
+        <article class="card" data-category="travel">
+          <h3>透气宠物双肩包</h3>
+          <p>大面积网窗设计，减压背负，适合短途出行。</p>
+          <span class="tag">出行装备</span>
+        </article>
+
+        <article class="card" data-category="travel">
+          <h3>车载宠物安全座垫</h3>
+          <p>防滑防水材质，固定稳固，让自驾更安心。</p>
+          <span class="tag">出行装备</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section highlight" id="features">
+      <div class="container feature-grid">
+        <div>
+          <h2>为什么选择萌爪PetMall？</h2>
+          <ul>
+            <li>严选品牌：只上架真实用户口碑与高复购商品。</li>
+            <li>科学养宠：提供按年龄、体型、品种的选购建议。</li>
+            <li>极速发货：热门城市支持次日达服务。</li>
+            <li>售后无忧：7 天无理由，客服在线快速响应。</li>
+          </ul>
+        </div>
+        <div class="stats">
+          <p><strong>5000+</strong> 在售好物</p>
+          <p><strong>50万+</strong> 累计宠物家庭</p>
+          <p><strong>98%</strong> 用户满意度</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-content">
+      <div>
+        <h3>萌爪PetMall</h3>
+        <p>客服时间：09:00 - 21:00</p>
+        <p>邮箱：hello@petmall.example</p>
+      </div>
+      <a href="#top" class="back-top">返回顶部 ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
